@@ -28,3 +28,22 @@ console.log(result);
 "use strict";
 let a = 10;
 b=20;
+
+// ternary operator(? :)
+let value = (1<2) ? 1 : 2;
+console.log(value);
+
+// && - guard operator
+
+let m = (1>2) && 5;
+console.log(m);
+
+// default operator - ||
+let input;
+let j = input || 4;
+console.log(j);
+
+
+//falsy values:
+//0, '' , NaN, undefined, null
+
